@@ -46,6 +46,7 @@ anime-finder/
 └── .gitignore              # Files and folders to exclude from version control
 
 
+
 ---
 
 ## 🔌 API Reference
