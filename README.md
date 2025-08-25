@@ -28,27 +28,6 @@ Type a title, submit, and browse results as clickable cards.
 
 ---
 
-## 📂 Project Structure
-anime-finder/
-├── public/                 # Static assets served as-is
-│   └── index.html          # HTML template with React root div
-│
-├── src/                    # React source code
-│   ├── App.js              # Root component, manages app layout
-│   ├── SearchBar.js        # Search input + API fetch logic
-│   ├── Card.js             # Anime card component (title, image, rating, etc.)
-│   ├── index.js            # React entry point, renders <App />
-│   ├── index.css           # Global styles for the app
-│
-├── package.json            # Project dependencies and npm scripts
-├── package-lock.json       # Locked dependency tree for reproducible builds
-├── README.md               # Project documentation
-└── .gitignore              # Files and folders to exclude from version control
-
-
-
----
-
 ## 🔌 API Reference
 This app uses the free **Jikan API** to fetch anime data from MyAnimeList.
 
