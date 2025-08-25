@@ -1,0 +1,130 @@
+.Header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 140px;
+
+}
+
+.Luffy {
+  width: 200px;
+  height: auto;
+
+}
+
+.App-header {
+  color: brown;
+  font-size: 60px;
+  font-family: monospace;
+  margin-right: auto;
+}
+
+.App {
+  height: 100vh;
+  background-color: bisque;
+  size: 100%;
+}
+
+.Search {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+
+.Search input {
+  padding: 15px 10px;
+  padding-right: 100px;
+  width: 600px;
+  height: 50px;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+.Search button {
+  height: 100%;
+  /* Match input height */
+  top: 50%;
+  transform: translateY(-50%);
+  /* Vertically center button */
+  border-radius: 0 10px 10px 0;
+  /* Round only right side */
+  position: absolute;
+  width: 100px;
+  right: 0;
+  padding: 0 15px;
+  border: 5px solid black;
+  background: #003d73;
+  font-family: 'Courier New', Courier, monospace;
+  color: bisque;
+}
+
+.anime-card:hover {
+  transform: scale(1.2); /* Zoom in effect */
+  box-shadow: 0 0 10px #aaa;
+}
+
+.anime-card {
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  padding: 20px;
+  background: #003d73;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.card-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-score {
+  top: 5px;
+  right: 10px;
+  font-size: 0.75em;
+  font-family: fantasy;
+  color: white;
+}
+
+.card-episodes {
+  font-size: 0.75em;
+  font-family: fantasy;
+  color: white;
+}
+
+.card-image {
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-synopsis {
+  font-size: 0.9em;
+  height: 100px;
+  overflow: auto;
+  margin-top: 10px;
+  color: white;
+  font-family: fantasy;
+}
+
+
+.anime-list {
+  display: flex; /* Display the cards horizontally */
+  flex-wrap: wrap; /* Wrap the cards to the next line if necessary */
+  justify-content: center; /* Center the cards horizontally */
+  margin-top: 400px;
+}
+
+
